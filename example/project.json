@@ -1,0 +1,43 @@
+{
+  // Different between id and name you ask? id is unique &
+  // can be used in hash table, name can't
+  // (id should ideally be alphanumerical too...)
+  // name is just whatever the artist goes by, in my case...
+  // it's the same AHAHAHA
+  "artists": [
+    {
+      "id": "rapidcow",
+      "name": "rapidcow",
+      // Social media links i.e. where you can find them
+      // if you want to show them some love (ik this is just
+      // an example i don't expect you to show me love)
+      "socials": [
+        {
+          "platform": "tumblr",
+          "url": "https://rapidcow.tumblr.com"
+        }
+      ]
+    }
+  ],
+  // Tags... i shouldn't have to explain this do i?
+  // this one, like the ID above, alphanumerical please
+  "tags": [
+    {
+      "name": "comic",
+      "desc": "drawings where people talk or whatever"
+    }
+  ],
+  // Backup... ehh, if you like the art REALLY really much
+  // and don't want it gone when the link kicks the bucket
+  // (Not stealing art! they're called "backup" for a reason...)
+  "backup": {
+    // These are mappings of URL -> local file relative to root
+    "root": "backup",
+    "mapping": [
+      {
+        "url": "https://64.media.tumblr.com/b5f67a91dbc31dd9a34b55bdc0900b90/577c0fe4a19e5297-d4/s1280x1920/4cda67f1345a7582da67bbb811ad1359ae6b269f.png",
+        "file": "judas-scolds-cain.png"
+      }
+    ]
+  }
+}

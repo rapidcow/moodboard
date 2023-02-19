@@ -1,0 +1,77 @@
+{
+  // Name of your board + description
+  "name": "Binding of Isaac",
+  "desc": "indie game about a traumatized boy (if you know you know)",
+  "pins": [
+    {
+      // "artist" may be a string (one artist) or a list of strings
+      "artist": "rapidcow",
+      // self-explanatory fields (write anything you need here)
+      "title": "A very Isaac Christmas",
+      "desc": "Merry Christmas and happy holidays everyone!",
+      // A source in this sense is wherever you found the art
+      // (please dont link to Tumgik though like why tf does
+      // that even exist if posts are all transient --- my
+      // recommendation in that case is to just go to
+      // <ARTIST NAME>.tumblr.com and just try your best to
+      // find the original post... it's hard ik lol)
+      "sources": [
+        {
+          "platform": "tumblr",
+          "url": "https://rapidcow.tumblr.com/post/704619532606750720/a-very-isaac-christmas-yes-i-am-surprised-that-i"
+        }
+      ],
+      // Tags you defined in packages.json
+      // (you should only use the tags registered there,
+      // ik theoretically you should use whatever tag you want
+      // but IMO when you are in control of the tags it's best
+      // to just unify them for easier lookup in the future)
+      "tags": [
+        "comic"
+      ],
+      // This is, well, where you specify the data (images, GIFs,
+      // videos) you want to include in this pin
+      // (I'm not sure how this would work though)
+      "data": [
+        {
+          // Alternative text
+          "alt": "Page 1",
+          // Make sure this is a MIME type
+          "type": "image/png",
+          // Tip: to get this link just right click and "Copy Image Link"
+          "url": "https://64.media.tumblr.com/81329f7e26cc182c4f1c2cda210e08e6/577c0fe4a19e5297-bb/s400x600/92bdbff448e3ff41c91e402c8b620e3cae63432d.png"
+        },
+        {
+          "alt": "Page 2",
+          "type": "image/png",
+          "url": "https://64.media.tumblr.com/b5f67a91dbc31dd9a34b55bdc0900b90/577c0fe4a19e5297-d4/s1280x1920/4cda67f1345a7582da67bbb811ad1359ae6b269f.png"
+        },
+        {
+          "alt": "Page 3",
+          "type": "image/png",
+          "url": "https://64.media.tumblr.com/1ab23691abacdfca19544e4fb93d1d57/577c0fe4a19e5297-14/s1280x1920/aec026e6f4a870c30e31fe90f206c8ecfe88d576.png"
+        },
+        {
+          "alt": "Page 4",
+          "type": "image/png",
+          "url": "https://64.media.tumblr.com/e809205720e95cc7b471d3f01b855d28/577c0fe4a19e5297-27/s1280x1920/60acb53ff51d264e1f26ece66e5ea360af0d00e0.png"
+        },
+        {
+          "alt": "Page 5",
+          "type": "image/png",
+          "url": "https://64.media.tumblr.com/002b1704de8b9afcc872f1a833b5d4a6/577c0fe4a19e5297-a8/s1280x1920/bca13f4e292b684a132863991726a63c81759c86.png"
+        },
+        {
+          "alt": "Page 6",
+          "type": "image/png",
+          "url": "https://64.media.tumblr.com/9000da7e67c368b00a32a7dd9ce0fda2/577c0fe4a19e5297-17/s1280x1920/e239fc8608d00885caa12cfd0a4bdb65c9fffb9f.png"
+        },
+        {
+          "alt": "Footer",
+          "type": "image/png",
+          "url": "https://64.media.tumblr.com/f1c003ed20f3831d7a0bbd6b6a9eeea1/577c0fe4a19e5297-f1/s1280x1920/4d9bb25cb05965730930035a7a758694c50c2fbd.png"
+        }
+      ]
+    }
+  ]
+}
